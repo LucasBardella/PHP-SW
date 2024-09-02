@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 05-Ago-2024 às 14:05
+-- Tempo de geração: 02-Set-2024 às 13:46
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `cadastri_cliente`
 --
-CREATE DATABASE IF NOT EXISTS `cadastri_cliente` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `cadastri_cliente`;
 
 -- --------------------------------------------------------
 
@@ -62,7 +60,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'LUCAS BARDELLA', 'lucas@gmail.com', '1234');
+(1, 'LUCAS BARDELLA', 'lucas@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
 
 --
 -- Índices para tabelas despejadas
